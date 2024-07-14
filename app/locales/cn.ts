@@ -313,6 +313,23 @@ const cn = {
           SubTitle: "选择指定的部分版本",
         },
       },
+      Anthropic: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义 Anthropic Key 绕过密码访问限制",
+          Placeholder: "Anthropic API Key",
+        },
+
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+
+        ApiVerion: {
+          Title: "接口版本 (claude api version)",
+          SubTitle: "选择一个特定的 API 版本输入",
+        },
+      },
       Google: {
         ApiKey: {
           Title: "API 密钥",
@@ -328,6 +345,44 @@ const cn = {
         ApiVersion: {
           Title: "API 版本（仅适用于 gemini-pro）",
           SubTitle: "选择一个特定的 API 版本",
+        },
+      },
+      Baidu: {
+        ApiKey: {
+          Title: "API Key",
+          SubTitle: "使用自定义 Baidu API Key",
+          Placeholder: "Baidu API Key",
+        },
+        SecretKey: {
+          Title: "Secret Key",
+          SubTitle: "使用自定义 Baidu Secret Key",
+          Placeholder: "Baidu Secret Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "不支持自定义前往.env配置",
+        },
+      },
+      ByteDance: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义 ByteDance API Key",
+          Placeholder: "ByteDance API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+      },
+      Alibaba: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义阿里云API Key",
+          Placeholder: "Alibaba Cloud API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
         },
       },
       CustomModel: {
